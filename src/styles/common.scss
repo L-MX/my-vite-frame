@@ -1,0 +1,14 @@
+@import "./common/status-tag.scss";
+@import "./common/status-dot.scss";
+.tdp-helper {
+  min-width: 1000px;
+}
+// 全文用到的一些公共样式
+.link-text {
+  color: $primary-color;
+  cursor: pointer;
+  font-size: 14px;
+}
+.flexBox {
+  @include flexBox()
+}

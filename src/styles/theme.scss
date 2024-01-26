@@ -1,0 +1,47 @@
+// 全局css变量，实现一键换肤
+// 默认的主题色
+body {
+  // 主题色
+  --el-color-primary: #4b72ef;
+  --el-color-warning: #fa830c;
+  --el-color-success: #23ba84;
+  --el-color-danger: #eb3123;
+  --el-color-info: #aaafbd;
+  // 边框
+  --el-border-color: #D9D9D9;
+  --el-border-color-lighter: #E5E5E5;
+  --el-border-radius-base: 4px;
+  // 字体颜色
+  --el-text-color-regular: #3E5071;
+  --el-text-color-primary: #3E5071;
+  --el-text-color-secondary: #6C7581;
+
+}
+// 自定义主题色
+.default {
+  --el-color-primary: #4b72ef;           // 默认色
+  --el-color-primary-light-3:#779afc;    // hover
+  --el-color-primary-light-5: #a0cfff;
+  --el-color-primary-light-7: #c6e2ff;
+  --el-color-primary-light-8: #d9ecff;
+  --el-color-primary-light-9: #ecf5ff;   // 下拉框hover、active的背景框
+  --el-color-primary-dark-2: #3A5ACB;    // active
+}
+.green {
+  --el-color-primary: #009688;
+  --el-color-primary-light-3: #4db6ac;
+  --el-color-primary-light-5: #80cbc4;
+  --el-color-primary-light-7: #9ddfd9;
+  --el-color-primary-light-8: #afe9e4;
+  --el-color-primary-light-9: #effcfc;
+  --el-color-primary-dark-2: #066f65;
+}
+.purple {
+  --el-color-primary: #b731e9;
+  --el-color-primary-light-3: #d77ef8;
+  --el-color-primary-light-5: #c472e3;
+  --el-color-primary-light-7: #e0b5ef;
+  --el-color-primary-light-8: #f0d9f8;
+  --el-color-primary-light-9: #f4e9f8;
+  --el-color-primary-dark-2: #a00cd7;
+}

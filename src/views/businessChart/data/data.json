@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "51699344547010",
+      "type": "start",
+      "x": 220,
+      "y": 300,
+      "properties": {}
+    },
+    {
+      "id": "51699344547011",
+      "type": "business",
+      "x": 420,
+      "y": 300,
+      "properties": {
+        "nodeName": "业务节点1",
+        "nodeInfo": {
+          "groups": [
+            {
+              "name": "分支1",
+              "sourceId": "51699344547011",
+              "uid": "51699344547018"
+            },
+            {
+              "name": "分支2",
+              "sourceId": "51699344547011",
+              "uid": "51699344547019"
+            }
+          ],
+          "errors": [
+            {
+              "name": "异常分支1",
+              "sourceId": "51699344547011",
+              "uid": "51699344547020"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "polyline",
+      "id": "11699346495954",
+      "sourceNodeId": "51699344547010",
+      "sourceAnchorId": "51699344547010_sourceAnchor",
+      "targetNodeId": "51699344547011",
+      "targetAnchorId": "51699344547011_targetAnchor"
+    }
+  ]
+}

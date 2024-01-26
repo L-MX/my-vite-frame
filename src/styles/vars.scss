@@ -1,0 +1,29 @@
+// 全局scss变量，方便在scss中使用
+
+// 主题色
+$primary-color: var(--el-color-primary);
+$warning-color: var(--el-color-warning);
+$success-color: var(--el-color-success);
+$error-color: var(--el-color-danger);
+$info-color: var(--el-color-info);
+
+// 字体色
+$title-color: #30405D;                               // 标题色
+$text-color: var(--el-text-color-primary);             // 字体色
+$text-color-secondary: var(--el-text-color-secondary); // 次级字体色
+$disabled-color: #BFBFBF;                            // 禁用色
+
+// 边框
+$border-color: var(--el-border-color);                // 边框
+$border-color-split: var(--el-border-color-lighter);  // 分割线
+$border-radius-base: var(--el-border-radius-base);    // 圆角
+$box-shadow-base: 0 0 12px #0000000d;               // 边框阴影
+
+// 背景色
+$body-bg: #f0f2f6;
+$hover-bg: #eff4fd;                         // 下拉框等鼠标移入背景色
+$active-bg: var(--el-color-primary-light-9);  // 下拉框选择的背景颜色
+$head-bg: #F5F7FA;                          // 表头等...背景色
+
+// 字体
+$font-family: Source Han Sans CN, Source Han Sans CN-Regular;
